@@ -1,0 +1,66 @@
+﻿@import "vars";
+
+header, footer {
+    width: 98%;
+    background-color: @headerfoot;
+    padding: 1%;
+}
+
+header {
+    border-bottom: @border;
+}
+
+
+
+footer {
+    border-top: @border;
+    padding-bottom: 2%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+
+#page-wrap:after {
+    content: "";
+    display: block;
+}
+
+footer, #page-wrap:after {
+    height: 10px
+}
+
+
+#page-wrap {
+    min-height: 96%;
+    margin-bottom: -10px;
+    }
+
+#marg {
+    margin-left: 0px;
+}
+
+#logo {
+    font-size: 2em
+}
+
+#finder {
+    font-size: 1.5em;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+input[type=text].field {
+    border-radius: 5px;
+    border: @border;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+input[type=text].field:focus {
+    border: 2px solid @a;
+}
