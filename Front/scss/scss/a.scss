@@ -1,0 +1,22 @@
+﻿@import "vars";
+
+a {
+    text-decoration: none;
+    transition: $transition;
+    -moz-transition: $transition;
+    -webkit-transition: $transition;
+    margin-right: 15px;
+}
+
+a:hover {
+    color: $a;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: $transition;
+    -moz-transition: $transition;
+    -webkit-transition: $transition;
+}
+
+a:active {
+    color: #e0ff51
+}
